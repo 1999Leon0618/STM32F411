@@ -13,5 +13,5 @@
     * 5 SPI/I2Ss
     * SDIO
     * USB 2.0 full-speed
- * 開發環境
+* 開發環境
   * CLion+CMake+OpenOCD
