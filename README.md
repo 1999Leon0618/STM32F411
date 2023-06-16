@@ -8,8 +8,10 @@
   * 16-stream DMA
   * 11 timers
   * communication interfaces 
-    * 3 x I2C
+    * 3 I2C
     * 3 USARTs
     * 5 SPI/I2Ss
     * SDIO
-    * USB 2.0 full-speed 
+    * USB 2.0 full-speed
+ * 開發環境
+  * CLion+CMake+OpenOCD
