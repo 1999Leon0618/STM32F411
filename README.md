@@ -25,4 +25,4 @@
 * 不免俗的第一個學習的是透過UART印出"Hello World !"
 * 不過在這之中還是有需注意的地方
   1. 此練習是透過printf 函數實現的
-  2. 設定CMake須注意![img.png](img.png)
+  2. 設定CMake須注意![image/img.png](img.png)
