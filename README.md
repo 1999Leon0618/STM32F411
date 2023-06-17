@@ -1,6 +1,6 @@
 # STM32F411
 
-* 此頁面將記錄學習STM32F411RE的全過程
+* 此頁面將記錄學習STM32F411RE的過程，並不會記錄所有步驟
 * 主要學習[參考網址](https://blog.csdn.net/qq_36347513/category_10508589.html/ "link")
 * 此型號關鍵規格如下
     * Core: Arm® 32-bit Cortex®-M4 CPU with FPU
@@ -22,5 +22,7 @@
 
 ## 第一個項目
 
-* 不免俗的第一個學習的還得是印出"Hello World !"
-* 因為依照上方設定方式printf函數無法使用，所以使用UART印出
+* 不免俗的第一個學習的是透過UART印出"Hello World !"
+* 不過在這之中還是有需注意的地方
+  1. 此練習是透過printf 函數實現的
+  2. 設定CMake須注意![img.png](img.png)
