@@ -20,7 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f2962c-77fe-46f0-a081-ce345fc790b8" name="更改" comment="" />
+    <list default="true" id="72f2962c-77fe-46f0-a081-ce345fc790b8" name="更改" comment="創建新分支到主分支">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,8 +111,16 @@
       <workItem from="1687092647953" duration="4702000" />
       <workItem from="1687180905879" duration="7838000" />
       <workItem from="1687254503312" duration="10118000" />
-      <workItem from="1687345015448" duration="326000" />
+      <workItem from="1687345015448" duration="4030000" />
     </task>
+    <task id="LOCAL-00001" summary="創建新分支到主分支">
+      <created>1687345547206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687345547206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,11 +137,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/F411_FreeRTOS_Sensor_Display" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="創建新分支到主分支" />
+    <option name="LAST_COMMIT_MESSAGE" value="創建新分支到主分支" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
