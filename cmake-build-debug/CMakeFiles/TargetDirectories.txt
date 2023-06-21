@@ -1,0 +1,3 @@
+C:/Users/KUO_HSUN/CLionProjects/F411_FreeRTOS_SensorwithButton/cmake-build-debug/CMakeFiles/F411_FreeRTOS_SensorwithButton.elf.dir
+C:/Users/KUO_HSUN/CLionProjects/F411_FreeRTOS_SensorwithButton/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/KUO_HSUN/CLionProjects/F411_FreeRTOS_SensorwithButton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
