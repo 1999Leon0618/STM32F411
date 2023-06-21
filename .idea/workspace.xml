@@ -20,8 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f2962c-77fe-46f0-a081-ce345fc790b8" name="更改" comment="創建新分支到主分支">
+    <list default="true" id="72f2962c-77fe-46f0-a081-ce345fc790b8" name="更改" comment="Updata REAMME.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="CHI_Leon" />
@@ -111,7 +132,7 @@
       <workItem from="1687092647953" duration="4702000" />
       <workItem from="1687180905879" duration="7838000" />
       <workItem from="1687254503312" duration="10118000" />
-      <workItem from="1687345015448" duration="4030000" />
+      <workItem from="1687345015448" duration="6537000" />
     </task>
     <task id="LOCAL-00001" summary="創建新分支到主分支">
       <created>1687345547206</created>
@@ -120,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687345547206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updata REAMME.md">
+      <created>1687361063543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687361063543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updata REAMME.md">
+      <created>1687361095385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687361095385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="創建新分支到主分支" />
-    <option name="LAST_COMMIT_MESSAGE" value="創建新分支到主分支" />
+    <MESSAGE value="Updata REAMME.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updata REAMME.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

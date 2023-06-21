@@ -222,14 +222,11 @@ void DHT11_Task(void const * argument)
       buf[11] = 0x20;
       if(isChange!=1){buf[12] = 0x31;}
       else{buf[12] = 0x30;}
-
-
       buf[13] = 0x20;
-
       buf[14] = 0x0D;
       buf[15] = 0x0a;
-        HAL_UART_Transmit(&huart1, (uint8_t*)buf, 16, 1000);
-    osDelay(500);
+      HAL_UART_Transmit(&huart1, (uint8_t*)buf, 16, 1000);
+      osDelay(500);
   }
   /* USER CODE END DHT11_Task */
 }
