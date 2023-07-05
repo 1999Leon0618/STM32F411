@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WB55_Timer_PWM_Test1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WB55_Timer_PWM_Test1.elf">
+				<Option output="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/WB55_Timer_PWM_Test1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32WB55xx"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 WB55_Timer_PWM_Test1.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WB55_Timer_PWM_Test1.elf/fast">
+				<Option output="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/WB55_Timer_PWM_Test1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32WB55xx"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
+					<Add directory="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 WB55_Timer_PWM_Test1.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/gpio.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/main.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/stm32wbxx_hal_conf.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/stm32wbxx_it.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/tim.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/usart.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Inc/usb.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/gpio.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/main.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/stm32wbxx_hal_msp.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/stm32wbxx_it.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/syscalls.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/sysmem.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/system_stm32wbxx.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/tim.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/usart.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Src/usb.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Core/Startup/startup_stm32wb55rgvx.s">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart_ex.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/STM32WB55RGVX_FLASH.ld">
+			<Option target="WB55_Timer_PWM_Test1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/u10510/CLionProjects/WB55_Timer_PWM_Test1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
