@@ -3,15 +3,15 @@
 * System Clock = 32 MHz
 * Prescaler = 32-1
   * Prescaler = 31
-* ARR = 1000
+* ARR = 1000-1
   * ARR = 999
-* Pulse = 500 - 1
-  * Pulse = 499
+* Pulse = 500
+* 
 * n_clock = System Clock/Prescaler+1
   * n_clock = 32/32 = 1MHz
 * clock_t = n_clock/ARR + 1
   * clock_t = n_clock/ARR = 1kHz
-* duty_Cycle = Pulse + 1/ARR + 1
+* duty_Cycle = Pulse/ARR + 1
   * duty_Cycle = Pulse/ARR * 100% = 50%
 ## 實驗一:驗證頻率是否為10kHz，DC是否為整數
 * System Clock = 32 MHz
