@@ -6,7 +6,7 @@
 * ARR = 1000-1
   * ARR = 999
 * Pulse = 500
-* 
+---
 * n_clock = System Clock/Prescaler+1
   * n_clock = 32/32 = 1MHz
 * clock_t = n_clock/ARR + 1
