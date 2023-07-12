@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WB55_PWM_Pulse_Count",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WB55_PWM_Pulse_Count.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WB55_PWM_Pulse_Count.elf-Debug-89e59d3a2e638558e6c2.json",
+					"name" : "WB55_PWM_Pulse_Count.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/u10510/CLionProjects/WB55_PWM_Pulse_Count/cmake-build-debug",
+		"source" : "C:/Users/u10510/CLionProjects/WB55_PWM_Pulse_Count"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
